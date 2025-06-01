@@ -1,6 +1,6 @@
-# 📁 05React — Code Touchup & Team Configuration (Prettier Setup)
+## 📂 05React — Touchup & Team Configuration (Prettier + ESLint)
 
-### This folder is focused on configuring Prettier to maintain a consistent code style across team members and avoid unnecessary Git conflicts caused by formatting issues.
+### This folder demonstrates how to set up a basic configuration for **code formatting (Prettier)** and **linting (ESLint)** to maintain consistent code style across the team and avoid merge conflicts in GitHub.
 
 ## 🔧 Setup Steps
 
@@ -45,5 +45,22 @@ coverage
 ```bash
 npm run format
 ```
+
+### 🧪 Add ESLint (Optional but Recommended)
+```bash
+npm install --save-dev eslint
+npx eslint --init
+```
+### During eslint --init, follow prompts to:
+
+Choose your style guide (recommended: Airbnb or Standard)
+
+- Choose TypeScript or JavaScript
+
+- Choose React (if applicable)
+
+- Output config as .eslintrc or eslint.config.mjs file
+
+Now ESLint will help catch code bugs and styling issues automatically.
 
 This will auto-format all supported files inside the src/ directory, improving readability and ensuring consistent code formatting across all files and contributors.

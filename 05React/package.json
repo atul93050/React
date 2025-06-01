@@ -10,6 +10,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0",
     "prettier": "^3.5.3"
   }
 }
